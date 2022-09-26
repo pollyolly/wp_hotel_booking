@@ -1,0 +1,9 @@
+/* TEAM */
+	Lead Developer: Ivan Svyrskyi
+	Location: Kharkiv, Ukraine
+
+	Front Developer: Leighton Sapir
+	Location: Ecuador
+
+    Designer: Afia Udofia
+    Location: Lagos, Nigeria

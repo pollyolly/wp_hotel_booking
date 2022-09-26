@@ -1,0 +1,8 @@
+.hustle-unsubscribe-block-settings select[multiple] {
+	min-height: 200px !important;
+}
+
+/* Fix for this issue https://github.com/WordPress/gutenberg/issues/27166 */
+.hustle-unsubscribe-block-settings svg[viewBox="0 0 24 24"] {
+	display: none;
+}

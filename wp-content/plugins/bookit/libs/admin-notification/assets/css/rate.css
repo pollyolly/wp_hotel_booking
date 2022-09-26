@@ -1,0 +1,123 @@
+.stm-plugin-admin-notice {
+	display: flex;
+	margin: 30px 15px 30px 0;
+	background-color: #fff;
+	border-radius: 5px;
+	padding: 10px;
+	align-items: start;
+	position: relative;
+}
+.stm-plugin-admin-notice-close {
+	position: absolute;
+	top: 5px;
+	right: 5px;
+	font-size: 28px;
+	font-weight: 300;
+	line-height: 24px;
+	cursor: pointer;
+}
+.stm-plugin-admin-notice-logo img {
+	width: 40px;
+}
+.stm-plugin-admin-notice__content {
+	padding-left: 10px;
+}
+.stm-plugin-admin-notice__content h3 {
+	padding: 0 0 5px 0;
+	margin: 0;
+	color: rgba(0, 0, 0, 0.7);
+	font-size: 18px;
+	font-weight: 700;
+	font-style: normal;
+	letter-spacing: 0.36px;
+	line-height: 18px;
+}
+.stm-plugin-admin-notice__content p {
+	padding: 0;
+	margin: 0;
+	font-size: 14px;
+	font-weight: 400;
+	font-style: normal;
+	letter-spacing: 0.28px;
+	line-height: 18px;
+}
+.stm-plugin-admin-notice__content ul {
+	margin: 9px 0 0;
+	user-select: none;
+	list-style: none none;
+	display: flex;
+	flex-wrap: wrap;
+}
+.stm-plugin-admin-notice__content ul li {
+	margin: 0;
+}
+.stm-plugin-admin-notice__content ul li i {
+	display: block;
+	margin-right: 10px;
+	width: 30px;
+	height: 30px;
+	color: #d6981b;
+	background: url("../img/star-notice.svg") no-repeat;
+}
+.stm-plugin-admin-notice__content .plugin-notice {
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: 20px;
+}
+.stm-plugin-admin-notice__content .plugin-notice button, .stm-plugin-admin-notice__content .plugin-notice a {
+	margin-right: 10px;
+	padding: 10px 28px 9px;
+	color: #666666;
+	font-size: 14px;
+	font-weight: 400;
+	font-style: normal;
+	letter-spacing: 0.28px;
+	line-height: 20px;
+	border-radius: 4px;
+	border: 1px solid #dddddd;
+	background-color: #ffffff;
+	cursor: pointer;
+	transition: ease-in 0.1s;
+	text-decoration: none;
+}
+.stm-plugin-admin-notice__content .plugin-notice button:hover, .stm-plugin-admin-notice__content .plugin-notice a:hover {
+	background-color: rgba(221, 221, 221, 0.5);
+}
+.stm-plugin-admin-notice__content .plugin-notice button.active, .stm-plugin-admin-notice__content .plugin-notice a.active {
+	border: none;
+	color: #fff;
+	background-color: #0b6666;
+}
+.stm-plugin-admin-notice__content .plugin-notice button.active:hover, .stm-plugin-admin-notice__content .plugin-notice a.active:hover {
+	background-color: #377e7e;
+}
+.masterstudy-lms-learning-management-system .stm-plugin-admin-notice__content .plugin-notice button.active, .masterstudy-lms-learning-management-system .stm-plugin-admin-notice__content .plugin-notice a.active {
+	background-color: #195ec8;
+}
+.masterstudy-lms-learning-management-system .stm-plugin-admin-notice__content .plugin-notice button.active:hover, .masterstudy-lms-learning-management-system .stm-plugin-admin-notice__content .plugin-notice a.active:hover {
+	background-color: #3170cb;
+}
+.eroom-zoom-meetings-webinar .stm-plugin-admin-notice__content .plugin-notice button.active, .eroom-zoom-meetings-webinar .stm-plugin-admin-notice__content .plugin-notice a.active {
+	background-color: #157ffc;
+}
+.eroom-zoom-meetings-webinar .stm-plugin-admin-notice__content .plugin-notice button.active:hover, .eroom-zoom-meetings-webinar .stm-plugin-admin-notice__content .plugin-notice a.active:hover {
+	background-color: #3690f6;
+}
+.ulisting .stm-plugin-admin-notice__content .plugin-notice button.active, .ulisting .stm-plugin-admin-notice__content .plugin-notice a.active {
+	background-color: #17d292;
+}
+.ulisting .stm-plugin-admin-notice__content .plugin-notice button.active:hover, .ulisting .stm-plugin-admin-notice__content .plugin-notice a.active:hover {
+	background-color: #5cf1b7;
+}
+.motors-vin-decoder .stm-plugin-admin-notice__content .plugin-notice button.active, .motors-vin-decoder .stm-plugin-admin-notice__content .plugin-notice a.active {
+	background-color: #000;
+}
+.motors-vin-decoder .stm-plugin-admin-notice__content .plugin-notice button.active:hover, .motors-vin-decoder .stm-plugin-admin-notice__content .plugin-notice a.active:hover {
+	background-color: #222;
+}
+.cost-calculator-builder .stm-plugin-admin-notice__content .plugin-notice button.active, .cost-calculator-builder .stm-plugin-admin-notice__content .plugin-notice a.active {
+	background-color: #1ab163;
+}
+.cost-calculator-builder .stm-plugin-admin-notice__content .plugin-notice button.active:hover, .cost-calculator-builder .stm-plugin-admin-notice__content .plugin-notice a.active:hover {
+	background-color: #34f696;
+}
